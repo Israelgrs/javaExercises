@@ -1,0 +1,8 @@
+package Entities;
+
+public class Account {
+	private Integer number;
+	private String holder;
+	private Double inicialBalance;
+	private Double withdraw;
+}

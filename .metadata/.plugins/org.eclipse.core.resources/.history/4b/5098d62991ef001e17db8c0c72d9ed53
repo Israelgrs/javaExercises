@@ -1,0 +1,47 @@
+package Entities;
+
+public class Account {
+	private Integer number;
+	private String holder;
+	private Double inicialBalance;
+	private Double withdrawLimit;
+	
+	public Account(){
+	}
+	
+	
+	public Account(Integer number, String holder, Double inicialBalance, Double withdrawLimit) {
+		super();
+		this.number = number;
+		this.holder = holder;
+		this.inicialBalance = inicialBalance;
+		this.withdrawLimit = withdrawLimit;
+	}
+
+	public Integer getNumber() {
+		return number;
+	}
+	public void setNumber(Integer number) {
+		this.number = number;
+	}
+	public String getHolder() {
+		return holder;
+	}
+	public void setHolder(String holder) {
+		this.holder = holder;
+	}
+	public Double getInicialBalance() {
+		return inicialBalance;
+	}
+	public void setInicialBalance(Double inicialBalance) {
+		this.inicialBalance = inicialBalance;
+	}
+	public Double getWithdraw() {
+		return withdraw;
+	}
+	public void setWithdraw(Double withdraw) {
+		this.withdraw = withdraw;
+	}
+	
+	
+}

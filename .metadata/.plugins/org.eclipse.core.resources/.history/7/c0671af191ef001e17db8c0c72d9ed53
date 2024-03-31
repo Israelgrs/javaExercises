@@ -1,0 +1,22 @@
+package main;
+
+import java.util.Locale;
+import java.util.Scanner;
+
+public class Program {
+	private static int number;
+	private static String holder;
+	private double initialBalance, withdrawLimit;
+
+	public static void main(String[] args) {
+		Locale.setDefault(Locale.US);
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Enter Account data");
+		System.out.print("Number: ");
+		number = sc.nextInt();
+		System.out.print("Holder: ");
+		sc.nextline();
+		holder = sc.nextLine();
+	}
+
+}
